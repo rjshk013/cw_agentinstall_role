@@ -1,0 +1,7 @@
+[mla-server]
+#mla-dev-web-farm ansible_ssh_host=10.99.13.225 ansible_ssh_user=tgix ansible_ssh_private_key_file=/home/rajeshk/Downloads/tgix.pem
+#mla-dev-api-new ansible_ssh_host=10.99.14.253 ansible_ssh_user=tgix ansible_ssh_private_key_file=/home/rajeshk/Downloads/tgix.pem
+#EP-new ansible_ssh_host=10.0.11.182 ansible_ssh_user=tgix ansible_ssh_private_key_file=/home/rajeshk/Downloads/tgix.pem
+#mla-prod-qgis ansible_ssh_host=10.0.2.5 ansible_ssh_user=tgix ansible_ssh_private_key_file=/home/rajeshk/Downloads/tgix.pem
+#mla-stg-web-farm ansible_ssh_host=10.0.2.237 ansible_ssh_user=tgix ansible_ssh_private_key_file=/home/rajeshk/Downloads/tgix.pem
+Oracle-Client-delphi ansible_ssh_host=10.0.1.50 ansible_ssh_user=tgix ansible_ssh_private_key_file=/home/rajeshk/Downloads/tgix.pem

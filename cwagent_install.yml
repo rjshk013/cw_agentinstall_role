@@ -1,0 +1,10 @@
+---
+- hosts: mla-server
+  become: yes
+  become_method: sudo
+  become_user: root
+  gather_facts: true
+  roles:
+    - role: cw_agent
+      vars:
+         cwa_conf_json_file_content: "{{ lookup('file', 'files/CloudWatch.json') | from_json }}"      
